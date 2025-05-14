@@ -1,0 +1,154 @@
+Day 2:
+
+
+ map,filter,reduce
+
+map(): applies given logic on each item of the collection and return a map object
+
+
+list1=[10,20,30,40]
+list2=[]
+
+  
+   list2 = list(map(lambda x:x*2,list1))
+
+
+filter() == applies given logic on each item of the collection but it returns filtered value
+
+
+		filter(logic,collection)
+
+
+reduce()---applies given logic on each item of the collection and returns a single calculated value
+
+
+
+			reduce(logic,collection)
+
+
+Exception : Python is a dynamically typed language
+
+	We have a strong to chance to get a runtime-error.
+
+
+	This runtime error is known as Exception.
+
+
+	list1=[10,20,30]
+	print(list1[3])   // Index outof range error
+
+
+	a = 10
+	b = 0
+	print(a/b) // ZeroDivision Error
+
+
+	a = 10
+	b = "abc"
+
+
+	print(a/b)  //Value Error
+
+
+
+	employees= {"FirstName":"Krunal","Age":37}
+	print(employees["age"]) // Key-error
+
+
+	Regular Expression is used to find a particular pattern in the string
+	RE
+
+
+	OOP in Python:  C++,JAVA,C#, ES 6 -- Object Oriented JavaScript
+
+	Python is fully OOP language
+
+	it supports all 4 pillars of object-oriented
+
+
+		Abstraction : Considering only relevant information -- ignoring the rest
+				ATM, IPL
+				class, interface, abstract class
+		Encapsulation : Data Hiding : We hide the data memebers of the class from the outside world
+				private,protected,public
+		Polymorphism : Poly means Many, Morph means roles
+					Operator Overloading == + , 2+3=5 , "A"+"B"= "AB"
+					Method Overriding == it is a part of inheritance == Parent class and child class has method with the same name
+					child class method overrides the logic of the parnet class method
+		Inheritance : Here classes are in the Parent-Child relation ship
+
+			Child class inherits attributes and methods of the parent class while it can have its own attribute and methods
+
+		
+		class Computer:
+			__screensize
+			touchscreen:False
+			keyboard:
+			memory:
+			HDD:
+		class Laptop(Computer):
+			built-in camera
+			built-in speakers
+		class Desktop(Computer):	
+			external camera
+			external speaker
+
+		3 Types of inheritance
+
+			Single Inheritance 
+
+		class Computer:
+			screensize
+			touchscreen:False
+			keyboard:
+			memory:
+			HDD:
+		class Laptop(Computer):
+			built-in camera
+			built-in speakers
+
+	Multi-level inheritance
+
+	
+	class A:
+			screensize
+			touchscreen:False
+			keyboard:
+			memory:
+			HDD:
+	class B(A):
+			built-in camera
+			built-in speakers
+	class C(B):
+
+
+	Multiple Inehritance:
+
+		class A:
+		class B:
+		class C(A,B):
+
+	When we create an object of the class,it triggers the default method of the class == Constructor==  __init__
+	When we delete an object of the class, it triggers the Destructor method== __del__
+
+	instance variables== to access these variables out-side the class, you need to create an instance of the class
+			     to access these variables within a class, we use "this" or "self" keyword
+
+	static variables == we access these variable by the classname. no need to create an instance of the class.
+			   value of static variable is shared across all the instance of the class
+
+
+	method
+	static method -- to access static method we use classname.
+
+
+
+
+
+	
+
+
+
+
+
+

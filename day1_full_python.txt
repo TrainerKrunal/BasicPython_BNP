@@ -1,0 +1,221 @@
+
+Day 1 -- 
+
+	Python is a general purpose language
+	It is also known as Scientist language
+
+	It is very simple as it is a higher level programming language unlike Java,C,C++,C# which are lower level programming language
+
+	As a developer we have very few things to control, almost everything would be taken care by language itself
+
+			We have no control over Memory management,Garbage collectors, performance tuning
+
+	Python is bit slow in performance, in comparision of C,C++,JAVA,C#
+
+		It is a dynamically typed language
+		entire language stack would be availabe at runtime
+
+		For human it is impossible to understand diff between 0.01 and 0.001 ms
+
+		If we go with high end infrastructure, we can host our workloads in Cloud, we can scale-up our existing infra
+
+
+	  Pyhton code is much more concise and short
+	 It requires less time and efforts to develop application using Python
+	 We get Rapid Application Development with Python
+	Python codes are 3 to 5 times shorter than JAVA and C#
+
+
+	Python comes with various libraries
+
+		NumPY : mathemetical calculation
+		SciPY: Scientific calculation
+		Padas : Data Science
+		PyTorch : ML
+		Tensorflow : AI
+		Flask: Designing Web APIs
+		DJango : Web Application using MVC design pattern
+		Python is fully object-oriented programming language -- Supports all 4 pillars of OOP -- Abstraction, Inheritance,Polymorphism,Encapsulation
+
+
+
+
+		translated to byte code by Python interpreter		ingested to PVM at runtime
+	.py (Source Code)============================>Byte Code==================================>PVM (Python Virtual Machine)
+
+	Customers.py					Customers.pyc						Python Modules
+														Compiler
+
+
+			Python Interpreters -- 2 falvours -- CPython - default interpreter, written in C language
+							     Jython - written in JAVA
+
+			Python Modules -- Random,Date,Time,Decimal,File,CSV,PDF,RE,CPickle,FuncTools
+
+
+
+
+	What can be done with Python?
+
+			System Programming
+			GUI programming
+			Internet Scripting
+			Component Integration
+			DB Programming
+			Gaming,Image Processing, XML scrapping
+			Data Science
+			AI + ML
+
+
+		Google -- SEO algorithm is developed using Python
+		Youtube -- video sharing service is developed using Python
+		Scandisk is using Python for hardware testing of Pendrives,HDD
+		NYSE is using Python for daily calculation
+		NASA is using Python for scintific calculation
+
+
+
+	Python Data Types
+	Strings in detail
+	Python Operators
+	Control Flow Statements -- If...elif..else, do...while
+	Iterators: for
+	Python Data Collection : list,tuples,dictionary,set
+	User Defined Functions
+	Lambda Expressions
+	File I/O
+	Regular Expression
+	Modules and Packages in Python
+	Exception Handling
+	OOP in Python
+
+
+    When we install Python, by default we get IDLE -- Intergrated Learning Environment
+						Pycharm,IntelliJ,VS Code,Sublime,ATOM etc.....
+
+
+
+	
+			print(*args,sep=" ",end="\n")
+			print("krunal")
+			print("krunal","trivedi")====> krunal trivedi
+			print("krunal","trivedi",35)=====>krunal trivedi 35
+
+
+
+
+		Indexing == grab the character from the given index
+
+		Slicing = grab the substring from the given string
+				string[start:stop:jump] = =all  of these are optional
+				it always include starting index
+				it always take one less than stop index,
+
+			mystring="Krunal Trivedi"
+
+			print(mystring[0:8]) --- 0 1 2 3 4 5 6 7
+
+
+
+  When you want to store collection of items , you need to implement Data Structures in Python
+
+
+	(1) List:
+			List is a mutable collection of items, items in the list can be added,updated,deleted programmatically
+			Each item in the list is , seperated
+			Each item in the list has an index, starting index is 0
+			[]
+			list()
+			
+
+		Primitve Types , Non-primitive Types
+
+
+		size of the type is predefined				not predefined types
+
+			int							object
+			float							list, array,string
+			decimal
+		
+
+
+
+	(2) Tuple:
+
+
+		Tuple is an immutable collection of items -- cannot modify the items from the tuple
+		as a read-only list
+		each item in the tuple has an index, starting with 0
+		each , item is considered as tuple in Python
+		employess = "Ajeet,"Sona","Gaus"
+		employess = ("Ajeet,"Sona","Gaus")
+		()
+		tuple()
+
+			list1=["Apple","Orange"]
+			mytuple=tuple(list1)
+			
+
+	"{} is {} years old".format(name,age)
+
+
+
+
+	(3) Set:
+		
+		Set is mutable collection of unordered items -- items in set do not have index
+		it would be in different order every time
+		Set do not have duplicate items
+		When existance of the item is important , not the order of the item -- we can go with Set
+
+		Real time -- FB, Instagram,Twitter == #tainer #python 
+			Web Page - meta tags -- SEO
+
+		{}
+		set()
+
+	
+	(4) Dictionary:
+
+			Dictionary stores item in the key:value
+			key must be unique
+			it is mutable collection
+			{"FirstName":"Krunal","Age":37}
+
+
+		
+	empty-list=[]
+	empty-tuple=()
+	empty_set=set()
+	emopty_dict={}
+
+
+
+	User Defined Functions:
+
+	print()
+	type()
+	len()
+	sorted()
+
+	def Add(num1,num2):
+		print(num1+num2)
+
+	Add(10,20)
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
